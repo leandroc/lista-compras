@@ -56,6 +56,7 @@ class ListaCompras extends Component {
   atualizaPreco(item, e) {
     const itemAtualizado = item;
     itemAtualizado.preco = e.target.value;
+
     const lista = this.Service.saveItem(this.state.lista, itemAtualizado);
     this.setState({ lista, total: this.totalCompras(lista) });
   }
