@@ -1,0 +1,7 @@
+.Content {
+  position: relative;
+  display: block;
+  padding: .5rem 0;
+  height: calc(100% - 6.5rem);
+  overflow: auto;
+}

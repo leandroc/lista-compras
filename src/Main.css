@@ -1,0 +1,17 @@
+:root {
+  --app-bg: #fafafa;
+
+  --appbar-bg: #111;
+  --appbar-text-color: #fff;
+
+  --form-bg: #fff;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+
+  background-color: #fafafa;
+}

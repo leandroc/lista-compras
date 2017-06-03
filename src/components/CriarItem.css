@@ -1,0 +1,77 @@
+.CriarItem {
+  background-color: var(--form-bg);
+}
+
+.CriarItem fieldset {
+  position: relative;
+  padding: 0;
+  border: 0;
+  margin: 0 auto;
+}
+
+.CriarItem legend,
+.CriarItem label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  margin: -1px;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+}
+
+.CriarItem div {
+  width: 3rem;
+  display: inline-block;
+}
+
+.CriarItem div + div {
+  width: calc(100% - 6rem);
+}
+
+.CriarItem input {
+  display: block;
+  height: 3rem;
+  width: 100%;
+  padding: 0 1rem;
+  border: 0;
+
+  border-radius: 0;
+}
+
+.CriarItem input[type="number"] {
+  padding: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.CriarItem button {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  height: 3rem;
+  width: 3rem;
+  padding: 0;
+  border: 0;
+
+  color: #fff;
+
+  border-radius: 0;
+  background-color: black;
+}
+
+.CriarItem svg {
+  display: block;
+  height: 1em;
+  width: 1em;
+  margin: 0 auto;
+
+  color: inherit;
+  font-size: 2rem;
+
+  fill: currentColor;
+}
